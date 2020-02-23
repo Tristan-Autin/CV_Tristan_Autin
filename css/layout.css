@@ -1,0 +1,91 @@
+@media screen and (min-width: 1201px){
+
+    #chk{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 800px) {
+    .topnav li {display: none;}
+    .topnav a.menu {
+      text-align: center;
+      display: block;
+    }
+  }
+  
+@media screen and (max-width: 800px) {
+    .topnav.responsive  li{
+      display: block;
+      text-align: center;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+  .competences{
+    padding-bottom: 0px;
+  }
+  .realisations .block{
+    margin-bottom: 40px;
+  }
+  .diplomes{
+    padding-bottom: 0px;
+  }
+  .skills{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .titre-interets{
+    margin-top: 0px;
+  }
+  .experience{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(15, 40px);
+    padding-left: 0%;
+}
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #000000;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    margin-left: -3px;
+  }
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 277px;
+    background-color: #9036D4;
+    top: -10px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .left, .right{
+    left: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .left-margin{
+    padding-left: 10%;
+  }
+  .left:hover:after{
+    width: 30px;
+    height: 30px;
+    right: 372px;
+    top: -13px;
+}
+  .container {
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+  .block-contact{
+    margin-bottom: 40px;
+  } 
+    }
+
